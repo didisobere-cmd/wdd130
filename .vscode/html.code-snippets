@@ -1,0 +1,16 @@
+{
+  "Image with suggested alt": {
+    "prefix": "imgsugg",
+    "body": [
+      "<img src=\"${1:images/}${2:filename.jpg}\" alt=\"${3:Descriptive alt text}\" style=\"max-width:100%;height:auto;\">"
+    ],
+    "description": "Insert <img> with src and alt placeholders. Type 'imgsugg' + Tab to expand."
+  },
+  "Image (simple)": {
+    "prefix": "img",
+    "body": [
+      "<img src=\"${1:images/}${2:filename.jpg}\" alt=\"${3:}\">"
+    ],
+    "description": "Simple <img> tag with placeholders. Type 'img' + Tab to expand."
+  }
+}
