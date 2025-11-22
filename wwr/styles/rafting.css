@@ -40,11 +40,13 @@ header,  main,  footer {
 
 h1, h2{
     font-family: var(--heading-font);
+    
 }
 
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    width: 100%;
 }
 
 /*social media links*/
@@ -80,7 +82,7 @@ nav, p, section, article {
     position:relative;
     right: 0;
     margin-top: 20px;
-    width: 100%;
+    width: 120%;
     height: absolute;
     background-color: var(--secondary-color);
     color: white;
@@ -91,7 +93,8 @@ nav, p, section, article {
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 100px;
+    height: auto;
     margin-left: 10px;
 }
 
