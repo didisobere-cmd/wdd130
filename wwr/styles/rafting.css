@@ -33,7 +33,7 @@ body {
 }
 
 header,  main,  footer {
-    width: 100;
+    width: 100%;
    max-width: 840px;
     margin: 0 auto;
 }
@@ -99,4 +99,3 @@ nav, p, section, article {
     height: auto;
     margin-left: 10px;
 }
-
