@@ -12,6 +12,12 @@ header {
     color: var(--accent2-color)
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header nav a {
     margin-left: 20px;
     text-decoration: none;
@@ -52,19 +58,18 @@ nav, p, section, article {
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
 
 .hero h1 {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    top: 2cap;
     left: 0;
     width: 100%;
     padding: 20px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     opacity: 1;
     background-color: var(--accent1-color);
@@ -72,14 +77,16 @@ nav, p, section, article {
 }
 
 .hero article {
-    position: absolute;
+    position:relative;
     right: 0;
-    top: 180px;
-    width: 250px;
+    margin-top: 20px;
+    width: 100%;
+    height: absolute;
     background-color: var(--secondary-color);
     color: white;
     padding: 15px;
     opacity: 0.95;
+    font-family: cursive;
 }
 
 .hero article img {
