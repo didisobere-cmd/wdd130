@@ -1,8 +1,22 @@
+.grid {
+    display: grid;
+    align-items: center;
+}
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+main {
+    margin: 1rem;
+    grid-column: 2/3;
+}
 
+}
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+main {
+    display: block;
 }
 body {
     font-size: 16px;
@@ -11,15 +25,21 @@ body {
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav a {
-    color: white;
     display: block;
     padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
 h1 {
     color: darkblue;
     padding: .5rem;
+    
 }
 img {
     width: 150px;
@@ -27,10 +47,6 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-
-main{
-    max-width: 640px;
 }
 
 main img {
@@ -48,8 +64,9 @@ p {
 }
 aside {
         width: 20rem ;
-        text-align: center;
         position: relative;
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
     
  aside img {
