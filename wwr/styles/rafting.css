@@ -7,10 +7,33 @@
     --body-font:    Arial, Helvetica, sans-serif;
 }
 
+
 header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color)
 }
+
+header img {
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 16px;
+    color: white;
+}
+
+
 
 * {
     margin: 0;
@@ -24,6 +47,35 @@ header nav a {
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+.wireframe-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.wireframe-content img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+figure {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+figure img {
+    border-radius: 8px;
+}
+
+figure figcaption {
+    text-align: center;
 }
 
 body {
@@ -40,10 +92,11 @@ header,  main,  footer {
 
 h1, h2{
     font-family: var(--heading-font);
+    text-align: center;
     
 }
 
-nav, p, section, article {
+p, section, article {
     margin: 16px;
     padding: 8px;
     width: 100%;
